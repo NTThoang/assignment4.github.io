@@ -1,0 +1,41 @@
+body {
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+* {
+box-sizing: border-box;
+}
+.row::after {
+content: "";
+clear: both;
+display: table;
+}
+[class*="col-"] {
+float: left;}
+
+.img {width:100%;
+height: auto;
+padding:10px;
+}
+
+footer {
+column-gap: 70px;}
+
+#textsize{font-family:Arial;
+ padding:30px 50px}
+#a1{text-align:center;}
+#a2{background-color:blanchedalmond;
+text-align:center;}
+.nav {
+height:70px;
+padding: 5px;}
+ul {
+list-style-type:none;
+}
+li.a{float:left;}
+li.b{float:right;}
+li a {margin-right:25px;
+text-decoration: none;
+color:black;
+font-weight: bold;
+}
